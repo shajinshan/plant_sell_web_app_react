@@ -1,0 +1,27 @@
+.admin-form {
+    height: 500px;
+    width: 400px;
+   border: 0.2px solid rgb(130, 127, 127);
+    margin-top: 100px;
+    padding: 20px;
+    margin-left: 40%;
+    border-radius: 20px;
+
+    
+}
+.admin-form input{
+    margin-top: 20px;
+}
+.admin-form textarea{
+    margin-top: 20px;
+}
+.admin-form select{
+    margin-top: 20px;
+}
+.admin-form button{
+    margin-top: 40px;
+    margin-left: 25%;
+}
+.add-anim{
+    margin-top: 100px;
+}

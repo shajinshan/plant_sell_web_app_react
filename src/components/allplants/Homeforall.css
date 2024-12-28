@@ -1,0 +1,13 @@
+.card{
+  margin-top: 90px;
+  margin-left: 20px;
+}
+.col img{
+    height: 250px;
+    object-fit: cover;
+}
+.card-body{
+     
+    height: 20px;
+    overflow: hidden;
+}

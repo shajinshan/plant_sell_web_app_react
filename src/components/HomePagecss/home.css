@@ -1,0 +1,60 @@
+.cursol-container img{
+    height: 500px;
+    object-fit: cover;
+    
+}
+.cursol-container{
+    margin-top: 70px;
+}
+.roww-container img{
+    height: 300px;
+    width: 286px;
+    object-fit: cover;
+}
+.containercard{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.nav-container{
+    border: 1px solid rgb(251, 251, 251);
+    background-color: aqua;
+    color: #000;
+}
+.new-stockss{
+    margin-top: 4px;
+}
+.footerz{
+    padding-top: 20px;
+}
+.showless button{
+    margin-top: 90px;
+}
+h2 span{
+    color: #000000;
+    position: relative;
+    top: 40px;
+
+}
+
+h2 span::before {
+    content: "New";
+    animation: animates infinite 3s;
+    padding-left: 10px;
+    
+}
+@keyframes animates {
+
+    0% {
+        content: "";
+    }
+
+    50% {
+        content: "New Stocks";
+    }
+
+    75% {
+        content: "New!!!";
+    }
+}

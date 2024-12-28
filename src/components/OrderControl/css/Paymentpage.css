@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .payment-container {
+    max-width: 600px;
+    
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15%;
+    margin-left: 30%;
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+ 
+  
+ 
+  
+  .payment-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+
+  
+  
+  
+  .cod-group {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .confirm-btn {
+    background-color: #f05a28;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #e04b1f;
+  }
+  

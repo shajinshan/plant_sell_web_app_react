@@ -1,0 +1,20 @@
+.viewcontainer {
+    margin-top: 40px;
+}
+
+.admincard {
+    height: 600px;
+}
+
+.viewcontainer img {
+    transition: transform 0.2s ease-in-out; 
+}
+
+.viewcontainer img:hover {
+    transform: scale(1.1); 
+    border-radius: 10px;
+}
+
+.bttnforview button{
+    margin: 10px;
+}

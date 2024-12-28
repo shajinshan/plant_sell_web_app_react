@@ -1,0 +1,31 @@
+.new-stock img{
+    height:300px;
+    object-fit: cover;
+   
+}
+.new-stock .container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  .new-stock .row {
+    display: flex; /* Align items horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  }
+  
+  .new-stock .col {
+    flex: 0 0 auto; /* Ensure columns don't shrink */
+    margin-right: 10px; /* Add spacing between columns */
+  }
+  .new-stock .card {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+.caard{
+  height: 400px;
+  border-radius: 33px;
+}

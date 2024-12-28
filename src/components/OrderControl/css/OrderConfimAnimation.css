@@ -1,0 +1,27 @@
+.lotie-container{
+    height: 400px;
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 36%;
+
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .animatedText {
+    font-size: 2em;
+    font-family: 'Courier', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0;
+    display: inline-block;
+    animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+  }
+  

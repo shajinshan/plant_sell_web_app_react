@@ -1,0 +1,46 @@
+.order{
+    margin-top: 100px;
+    
+}
+.order-detail{
+    height: 140px;
+    border: 1px solid rgba(203, 203, 203, 0.368);
+    border-radius: 10px;
+}
+
+.order-detail img{
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.order-detail h2{
+    /* margin-left: 130px; */
+   position: relative;
+   left: 130px;
+   bottom: 100px;
+}
+.order-detail p{
+    position: relative;
+   left: 130px;
+   bottom: 100px;
+}
+.order-detail h6{
+    position: relative;
+   left: 130px;
+   bottom: 100px;
+}
+.next-page-btn img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+}
+.no-orders{
+    margin-left: 700px;
+    margin-top: 400px;
+}
