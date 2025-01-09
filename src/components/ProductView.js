@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NavBarForAll from './NavBarForAll'
-import '/Users/shajinshan/Desktop/react/plant/src/components/HomePagecss/productview.css'
+import './HomePagecss/productview.css'
 import axios from 'axios'
 import { useNavigate, useParams } from 'react-router';
 import Swal from 'sweetalert2';

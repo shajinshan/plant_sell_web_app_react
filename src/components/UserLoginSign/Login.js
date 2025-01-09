@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import '/Users/shajinshan/Desktop/react/plant/src/components/UserLoginSign/css/Registerr.css'
+import './css/Registerr.css'
 
 function Login({updateLoginStatus , setUserId ,setUserName}) {
     

@@ -1,5 +1,5 @@
 import React, { useState ,useEffect} from 'react'
-import '/Users/shajinshan/Desktop/react/plant/src/components/OrderControl/css/oderCheckout.css'
+import './css/oderCheckout.css'
 import { useNavigate, useParams } from 'react-router';
 import axios from 'axios';
 import { Link } from 'react-router-dom';

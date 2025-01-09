@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '/Users/shajinshan/Desktop/react/plant/src/components/AdminPage/Product/adminViewPage.css'
+import './adminViewPage.css'
 import axios from 'axios';
 import { useNavigate } from 'react-router';
 

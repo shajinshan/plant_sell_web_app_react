@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/shajinshan/Desktop/react/plant/src/components/HomePagecss/footer.css'
+import './HomePagecss/footer.css'
 import { Link } from 'react-router-dom';
 
 function Footer() {

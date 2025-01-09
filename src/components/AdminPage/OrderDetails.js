@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '/Users/shajinshan/Desktop/react/plant/src/components/AdminPage/Orderdetail.css'
+import './Orderdetail.css'
 import axios from 'axios';
 
 function OrderDetails() {

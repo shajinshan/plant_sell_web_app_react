@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NavBarForAll from '../NavBarForAll'
-import '/Users/shajinshan/Desktop/react/plant/src/components/allplants/Homeforall.css';  // Assuming the path to your CSS is correct
+import './Homeforall.css';  // Assuming the path to your CSS is correct
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 

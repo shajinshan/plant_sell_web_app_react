@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import '/Users/shajinshan/Desktop/react/plant/src/components/HomePagecss/order.css';
+import './HomePagecss/order.css';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import arrow from '../images/arrow.png'
 
 function OrderPage({ userId }) { 
 
@@ -40,7 +41,7 @@ function OrderPage({ userId }) {
               <p>Expected on {expectedDate.toLocaleDateString()}</p>
 
               <div className='next-page-btn'>
-                <img src='images/arrow.png' alt="Next" />
+                <img src={arrow} alt="Next" />
               </div>
             </div>
           );
