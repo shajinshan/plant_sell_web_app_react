@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBarForAll from './NavBarForAll';
-import '/Users/shajinshan/Desktop/react/plant/src/components/HomePagecss/about.css'
+import './HomePagecss/about.css'
 import Footer from './Footer';
 
 function AboutPage() {

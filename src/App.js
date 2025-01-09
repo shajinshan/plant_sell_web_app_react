@@ -9,7 +9,7 @@ import OrderPage from './components/OrderPage';
 import AddCartPage from './components/AddCartPage';
 import NavBarForAll from './components/NavBarForAll';
 import FilterPlants from './components/FilterPlants';
-import ProductView from '/Users/shajinshan/Desktop/react/plant/src/components/ProductView.js'
+import ProductView from './components/ProductView'
 import { useEffect, useState } from 'react';
 import AddProduct from './components/AdminPage/AddProduct';
 import LoginPage from './components/AdminPage/LoginPage';

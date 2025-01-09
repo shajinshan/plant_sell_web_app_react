@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Player } from '@lottiefiles/react-lottie-player'; // Corrected import for Lottie Player
-import '/Users/shajinshan/Desktop/react/plant/src/components/HomePagecss/addcart.css'; // Make sure the path is correct
+import './HomePagecss/addcart.css'; // Make sure the path is correct
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 

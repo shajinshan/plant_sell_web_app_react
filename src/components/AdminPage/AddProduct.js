@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '/Users/shajinshan/Desktop/react/plant/src/components/AdminPage/addProduct.css'
+import './addProduct.css'
 import axios from 'axios';
 
 function AddProduct() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/shajinshan/Desktop/react/plant/src/components/AdminPage/adminmenupage.css'
+import './adminmenupage.css'
 import { Link } from 'react-router-dom'
 
 function AdminMenuPage() {

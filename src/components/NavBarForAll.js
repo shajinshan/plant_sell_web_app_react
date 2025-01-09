@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '/Users/shajinshan/Desktop/react/plant/src/components/HomePagecss/nav.css';
+import './HomePagecss/nav.css';
 import axios from 'axios';
 
 import Modal from 'react-modal';
-
+import loginkey from '../images/loginkey.png'
+import loginicon from '../images/loginicon.png'
+import carticon from '../images/cart.png'
 
 Modal.setAppElement('#root');
 function NavBarForAll({ counts, loginres ,usermail, handleLogout}) {
@@ -100,7 +102,7 @@ function NavBarForAll({ counts, loginres ,usermail, handleLogout}) {
 
                                 <Link to={loginres ? '/' : '/userlogin'}> 
                                     <img
-                                        src={loginres ? 'images/loginkey.png' : 'images/loginicon.png'} 
+                                        src={loginres ? {loginkey} : {loginicon}} 
                                         alt="Login"
                                     />
                                 </Link>
@@ -115,7 +117,7 @@ function NavBarForAll({ counts, loginres ,usermail, handleLogout}) {
                                 <Link to={'/cart'}>
                                     <img
 
-                                        src='images/cart.png'
+                                        src={carticon}
                                         alt="Cart"
                                     />
                                 </Link>
